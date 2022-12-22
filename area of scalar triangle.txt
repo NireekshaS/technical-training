@@ -1,0 +1,15 @@
+#include <stdio.h>
+    
+int main()
+{
+    // initializing the base and height
+    float base = 9, height = 24;
+
+    // calculating the area
+    float area = ((float)1/2) * base * height;
+
+    // printing the area 
+    printf("The area of given Triangle is : %f", area);
+    
+    return 0;
+}
